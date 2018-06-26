@@ -1,0 +1,21 @@
+{
+    "name": "Test/shopbybrand",
+    "description": "Test Shop By Brand",
+    "authors": [
+        {
+            "name": "Amit Samsukha",
+            "email": "amit@Test.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Test\\ShopByBrand\\": ""
+        }
+    }
+}
